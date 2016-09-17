@@ -1,0 +1,12 @@
+<ul style="list-style-type: none;">
+  <li *ngFor="let person of people">
+    <md-card>
+      <md-card-title-group>
+        <img md-card-sm-image src="{{person.imgPath}}" >
+        <md-card-title>{{person.first_name}}</md-card-title>
+        <md-card-subtitle>{{person.job}}</md-card-subtitle>
+        <button md-button>Like</button>
+      </md-card-title-group>
+    </md-card>
+  </li>
+</ul>
