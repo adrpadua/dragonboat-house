@@ -4,22 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { Material2Component } from './components/material2/material2.component';
-
-import { MdCardModule } from '@angular2-material/card';
-import { MdButtonModule } from '@angular2-material/button';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    Material2Component,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    MdCardModule,
-    MdButtonModule
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
